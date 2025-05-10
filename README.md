@@ -33,5 +33,7 @@ En este caso lo coloqué en horizontal debido a su tamaño
 
 # ACLARACIONES
 -La palabra clave segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esta decisión responde a criterios de compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para asegurar portabilidad, evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes (como "canción", "acción", etc.) no son aceptadas por el analizador actual porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
+
 -Sensibilidad a mayúsculas y minúsculas: Todas las palabras clave del lenguaje (segun, hacer, caso, defecto, salir, imprimir, etc.) deben escribirse en minúscula, tal como están definidas en la gramática. El uso de mayúsculas puede provocar errores de análisis.
+
 -Formato de cadenas: Las cadenas deben estar entre comillas dobles (") y solo pueden contener letras no acentuadas, números y símbolos permitidos (., ,, !, ?, : y ;). Caracteres como tildes, eñes (ñ), o comillas simples (') no están permitidos por el conjunto léxico actual.
