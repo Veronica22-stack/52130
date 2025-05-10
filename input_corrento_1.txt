@@ -1,0 +1,5 @@
+segun "j9" hacer {
+	caso 1: imprimir("a?");
+	caso 2: imprimir ("adiós");
+	caso 3: imprimir ("22");
+}finsegun

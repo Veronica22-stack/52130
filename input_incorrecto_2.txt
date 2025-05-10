@@ -1,0 +1,4 @@
+segun "Bc" hacer{
+    caso 1: imprimir("25")
+    caso 2: salir;
+}
