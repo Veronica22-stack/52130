@@ -1,5 +1,0 @@
-segun "Taylor" hacer{
-	caso "A": imprimir("1989");
-	caso "B": imprimir("TTDP");
-	caso "C": salir;
-}finsegun
