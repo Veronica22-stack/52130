@@ -3,14 +3,14 @@ Este analizador sintáctico analiza una estructura del tipo SEGUNCASO, en ANTRL.
 EN este README se podrá observar: INSTALACIÓN, INSTRUCCIONES DE USO, Y ACLARACIONES
 
 # INSTALACIÓN
-Clonar este repositorio: git clone 
+Clonar este repositorio: git clone https://github.com/Veronica22-stack/52130.git
 Para poder implementarlo se necesita instalar:
 - https://www.java.com/en/download/: Para ejecutar herramientas de Java.
 - https://nodejs.org/es: El proyecto a editar fue construido con Node.
 - https://code.visualstudio.com/: Para trabajar y editar el código.
 
 # INSTRUCCIONES DE USO
-1.	Clonar el repositorio: se puede hacer desde el siguiente link: git clone . Si se clonó correctamente se podrá ver:
+1.	Clonar el repositorio: se puede hacer desde el siguiente link: git clone https://github.com/Veronica22-stack/52130.git .
 2.	Cambiar el directorio raíz con el comando: cd ssl-antlr-seguncaso
 3.	Abrir VS Code y ejecutar en la ventana de comandos abierta: code . 
 4.	Aquí ya se podrá ver el proyecto en la parte izquierda de VS Code: 
