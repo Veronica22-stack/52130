@@ -1,6 +1,7 @@
 # README
+En este README se podrá observar: INSTALACIÓN, INSTRUCCIONES DE USO, Y ACLARACIONES
+
 Este analizador sintáctico analiza una estructura del tipo SEGUNCASO, en ANTRL. 
-EN este README se podrá observar: INSTALACIÓN, INSTRUCCIONES DE USO, Y ACLARACIONES
 
 # INSTALACIÓN
 Clonar este repositorio: git clone https://github.com/Veronica22-stack/52130.git
