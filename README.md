@@ -1,14 +1,8 @@
 # README
 En este README se podrá observar: INSTALACIÓN, INSTRUCCIONES DE USO, Y ACLARACIONES
 
-Este analizador sintáctico analiza una estructura del tipo SEGUNCASO, en ANTRL. 
-
 # INSTALACIÓN
 Clonar este repositorio: git clone https://github.com/Veronica22-stack/52130.git
-Para poder implementarlo se necesita instalar:
-- https://www.java.com/en/download/: Para ejecutar herramientas de Java.
-- https://nodejs.org/es: El proyecto a editar fue construido con Node.
-- https://code.visualstudio.com/: Para trabajar y editar el código.
 
 # INSTRUCCIONES DE USO
 1.	Clonar el repositorio: se puede hacer desde el siguiente link: git clone https://github.com/Veronica22-stack/52130.git .
