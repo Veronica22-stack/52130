@@ -3,7 +3,7 @@ import fs from 'fs';
 import { CharStreams, CommonTokenStream } from 'antlr4';
 import seguncasoLexer from './generated/seguncasoLexer.js';
 import seguncasoParser from './generated/seguncasoParser.js';
-import seguncasoLexeristener from './generated/seguncasoListener.js';
+import seguncasoListener from './generated/seguncasoListener.js';
 
 //Analisis lexico y sintactico
 
