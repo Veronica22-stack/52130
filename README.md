@@ -7,7 +7,7 @@ Verónica Silva
 
 En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROYECTO E INSTRUCCIONES DE USO
 
-En este README toda explicación importante está acompañada de imágenes del ejemplo input_correcto_1; para mejor comprension del proyecto.
+En este README toda explicación importante está acompañada de imágenes del ejemplo input_correcto_1; para mejor comprensión del proyecto.
 
 # ACLARACIONES
 
