@@ -8,6 +8,9 @@ Verónica Silva
 En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROYECTO E INSTRUCCIONES DE USO
 
 # ACLARACIONES
+
+-En Visual Studio Code, se debe abrir la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya que sino se generan errores al ejecutar index.js y intep.js, debido al directorio del achivo input.txt.
+
 -La palabra  segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esto es por compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes no son aceptadas por este analizador porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
 
 -Todas las palabras del lenguaje (segun, hacer, caso, defecto, salir, imprimir, etc.) deben escribirse en minúscula, tal como están definidas en la gramática. El uso de mayúsculas puede provocar errores de análisis.
@@ -69,7 +72,7 @@ Es importante ya tener tener instalado:
 
 2-Extraer los ficheros.
 
-3-Es importante que en Visual Studio COde, se abra la carpeta antlr-seguncaso-project, NO la carpeta 52130, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt.
+3-Es importante que en Visual Studio Code, se abra la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt.
 
 [![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
  
