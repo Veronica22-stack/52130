@@ -13,10 +13,6 @@ En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROY
 
 -La palabra  segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esto es por compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes no son aceptadas por este analizador porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
 
--Todas las palabras del lenguaje (segun, hacer, caso, defecto, salir, imprimir, etc.) deben escribirse en minúscula, tal como están definidas en la gramática. El uso de mayúsculas puede provocar errores de análisis.
-
--Las cadenas deben estar entre comillas dobles (") y solo pueden contener letras no acentuadas, números y símbolos permitidos (., ,, !, ?, : y ;). Caracteres como tildes, la letra ñ, o comillas simples (') no están permitidos por el analizador.
-
 -El interpretador se encuentra en un archivo distinto, ya que si estaba dentro del mismo archivo en donde se ejecutan los demas ejercicios, saltaba error
 
 # DESCRIPCIÓN DEL PROYECTO
