@@ -70,12 +70,18 @@ Es importante ya tener tener instalado:
 
 2-Extraer los ficheros.
 
-3-Es importante que en Visual Studio Code, se abra la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Ver orden de imagenes:
+3-Es importante que en Visual Studio Code, se abra LA CARPETA antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Ver orden de imagenes:
+
+[![image.png](https://i.postimg.cc/MTKhtzrF/image.png)](https://postimg.cc/qtSbvHrs)
+
 [![image.png](https://i.postimg.cc/j5VqCwgr/image.png)](https://postimg.cc/Ny4vzMvN)
+
 [![image.png](https://i.postimg.cc/x8tbK1H1/image.png)](https://postimg.cc/8ff5GDt2)
-[![image.png](https://i.postimg.cc/rpNydY58/image.png)](https://postimg.cc/v1DwkhPj)
+
+[![image.png](https://i.postimg.cc/rskPdM2m/image.png)](https://postimg.cc/JDpqvwnV)
 
 Luego en Visual Studio Code se verá: 
+
 [![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
  
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
