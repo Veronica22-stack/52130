@@ -36,7 +36,7 @@ Podrá observarse que el sistema:
  
  	-traduce el código fuente, al lenguaje JavaScript; y lo ejecuta como lo haría un intérprete básico.
 
-os tres primeros items se encuentran dentro de un mismo archivo llamado index.js
+Los tres primeros items se encuentran dentro de un mismo archivo llamado index.js
 
 En un archivo distinto, llamado interp.js se encuentra:
 
@@ -80,6 +80,7 @@ Es importante ya tener tener instalado:
 2-Extraer los ficheros.
 
 3-Es importante que en Visual Studio Code, se abra LA CARPETA 52130, NO la carpeta antlr-seguncaso-project, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Es decir, al abrir la carpeta en visual estudio code, los archivos deben verse de la seguiente manera:
+
 [image.png](https://postimg.cc/qzjT0z9K)
 
 De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js (ver mas abajo como ejecutarlos)
