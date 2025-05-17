@@ -10,6 +10,11 @@ En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROY
 # ACLARACIONES
 
 -En Visual Studio Code, se debe abrir la carpeta 52130, NO la carpeta antlr-seguncaso-project, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
+Para que estos se ejecuten correctamente en la terminal se colocan los comandos:
+
+ 	node antlr-seguncaso-project/index.js
+
+	node antlr-seguncaso-project/interp.js
 
 -La palabra  segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esto es por compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes no son aceptadas por este analizador porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
 
@@ -73,9 +78,9 @@ Es importante ya tener tener instalado:
 3-Es importante que en Visual Studio Code, se abra LA CARPETA 52130, NO la carpeta antlr-seguncaso-project, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Es decir, al abrir la carpeta en visual estudio code, los archivos deben verse de la seguiente manera:
 [image.png](https://postimg.cc/qzjT0z9K)
 
-De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js
+De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js (ver mas abajo como ejecutarlos)
 
-CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52130 directamente.
+CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52130 directamente; y deberá poder ver los archivos como en la imagen anterior.
 
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
 
@@ -85,17 +90,17 @@ Desde este archivo y en base al ejemplo colocado en el input se podrá observar 
  	-Presiona F5 para generar y visualizar el árbol de derivación (requiere tener el plugin ANTLR instalado).
  [![IMAGEN3.png](https://i.postimg.cc/133b4084/IMAGEN3.png)](https://postimg.cc/2Vg0KZFf)
  
-6-Ejecutar el analizador sintáctico y árbol:
+6-Ejecutar el analizador sintáctico y árbol: 
 	
  	-se abre el archivo index.js
  	
   	-Se abre la terminal (ctrl+ñ)
   	
-   	-Se ejecuta el  comando: node index.js (no olvidad hacer click en enter): Esto realiza el análisis léxico y sintáctico, muestra la tabla de tokens y genera el árbol de análisis sintáctico.
+   	-Se ejecuta el  comando: node antlr-seguncaso-project/index.js (no olvidad hacer click en enter): Esto realiza el análisis léxico y sintáctico, muestra la tabla de tokens y genera el árbol de análisis sintáctico.
    
-[![image.png](https://i.postimg.cc/rwGWv7jT/image.png)](https://postimg.cc/DSZ8GjRp)
-[![image.png](https://i.postimg.cc/ZKCKvqqn/image.png)](https://postimg.cc/7frypw0r)
-[![image.png](https://i.postimg.cc/G3ZhYCTj/image.png)](https://postimg.cc/nMGJbNks)
+[![image.png](https://i.postimg.cc/66DT5q7f/image.png)](https://postimg.cc/QVJjfXJF)
+
+[![image.png](https://i.postimg.cc/QMBRt8Kc/image.png)](https://postimg.cc/qtTmDdL7)
  
 7-Ejecutar el intérprete: se ejecutará completo con los inputs correctos, en  el caso de los incorrectos, quedará en blanco la traducción.
 	
@@ -103,10 +108,15 @@ Desde este archivo y en base al ejemplo colocado en el input se podrá observar 
  	
   	-Se abre la terminal (ctrl+ñ)
   	
-   	-Se ejecuta el  comando: node interp.js (no olvidad hacer click en enter): Esto traduce el código fuente al lenguaje JavaScript y lo ejecuta como si fuera un intérprete real.
+   	-Se ejecuta el  comando: node antlr-seguncaso-project/interp.js (no olvidad hacer click en enter): Esto traduce el código fuente al lenguaje JavaScript y lo ejecuta como si fuera un intérprete real.
 
-[![image.png](https://i.postimg.cc/BZxmq7Mh/image.png)](https://postimg.cc/23SQGGpv)
-[![image.png](https://i.postimg.cc/FK2npDyw/image.png)](https://postimg.cc/mcyw236S)
+[![image.png](https://i.postimg.cc/P5nLKJT5/image.png)](https://postimg.cc/MvtKpWnC)
+
+No olide que parar poder ejecutar correctamente los archivos en necesario que el comando ingresado sea
+	
+ 	node antlr-seguncaso-project/index.js
+
+	node antlr-seguncaso-project/interp.js
 
 Recuerde, que este procedimiento lo puede hacer con cualquiera de los archivos de texto que contienen distintos inputs. SIEMPRE que copie y pegue alguno de ellos en el archivo input.txt debe actualizarlo con ctrl+s para que ejecuten correctamente.
 
