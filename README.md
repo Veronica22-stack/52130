@@ -9,7 +9,7 @@ En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROY
 
 # ACLARACIONES
 
--En Visual Studio Code, se debe abrir la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt.
+-En Visual Studio Code, se debe abrir la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
 
 -La palabra  segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esto es por compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes no son aceptadas por este analizador porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
 
@@ -70,8 +70,12 @@ Es importante ya tener tener instalado:
 
 2-Extraer los ficheros.
 
-3-Es importante que en Visual Studio Code, se abra la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt.
+3-Es importante que en Visual Studio Code, se abra la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Ver orden de imagenes:
+[![image.png](https://i.postimg.cc/j5VqCwgr/image.png)](https://postimg.cc/Ny4vzMvN)
+[![image.png](https://i.postimg.cc/x8tbK1H1/image.png)](https://postimg.cc/8ff5GDt2)
+[![image.png](https://i.postimg.cc/rpNydY58/image.png)](https://postimg.cc/v1DwkhPj)
 
+Luego en Visual Studio Code se verá: 
 [![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
  
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
