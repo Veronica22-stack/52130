@@ -83,11 +83,11 @@ Es importante ya tener tener instalado:
 
 [![image.png](https://i.postimg.cc/CxVLG87c/image.png)](https://postimg.cc/qzjT0z9K)
 
-De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js (ver mas abajo como ejecutarlos)
+De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js (ver más abajo como ejecutarlos)
 
-CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52130 directamente; y deberá poder ver los archivos como en la imagen anterior.
+EN EL CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52130 directamente; y deberá poder ver los archivos como en la imagen anterior.
 
-4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
+4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido por alguno de los archivos adjuntos, debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
 
 5-Al seleccionar: seguncaso.g4 , se abrirá la gramática asignada.
 Desde este archivo y en base al ejemplo colocado en el input se podrá observar el árbol de derivación. Para esto es necesario:
@@ -117,7 +117,7 @@ Desde este archivo y en base al ejemplo colocado en el input se podrá observar 
 
 [![image.png](https://i.postimg.cc/P5nLKJT5/image.png)](https://postimg.cc/MvtKpWnC)
 
-No olide que parar poder ejecutar correctamente los archivos en necesario que el comando ingresado sea
+No olide que parar poder ejecutar correctamente los archivos en necesario que los comandos ingresados sean:
 	
  	node antlr-seguncaso-project/index.js
 
