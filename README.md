@@ -12,7 +12,7 @@ En este README toda explicación importante está acompañada de imágenes del e
 # ACLARACIONES
 
 -En Visual Studio Code, se debe abrir la carpeta 52130, NO la carpeta antlr-seguncaso-project, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
-Para que estos se ejecuten correctamente en la terminal se colocan los comandos:
+Para que estos se ejecuten correctamente, en la terminal se colocan los comandos:
 
  	node antlr-seguncaso-project/index.js
 
