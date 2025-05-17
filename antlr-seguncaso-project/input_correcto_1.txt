@@ -1,5 +1,0 @@
-segun "Taylor" hacer{
-	caso "A": imprimir("red");
-	caso "B": imprimir("TTDP");
-	defecto: salir;
-}finsegun
