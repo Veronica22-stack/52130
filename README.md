@@ -9,7 +9,7 @@ En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROY
 
 # ACLARACIONES
 
--En Visual Studio Code, se debe abrir la carpeta antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
+-En Visual Studio Code, se debe abrir la carpeta 52130, NO la carpeta antlr-seguncaso-project, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
 
 -La palabra  segun no lleva tilde intencionalmente, a pesar de que según las reglas del español debería escribirse “según”. Esto es por compatibilidad léxica con el analizador, ya que los lenguajes de programación suelen evitar caracteres especiales (como tildes o acentos) en palabras clave para evitar errores de codificación, y facilitar el análisis léxico. De igual modo, las cadenas con tildes no son aceptadas por este analizador porque el conjunto de caracteres definido en la gramática no incluye letras acentuadas (á, é, í, ó, ú) por simplicidad y para evitar conflictos de codificación en diferentes entornos.
 
@@ -70,30 +70,12 @@ Es importante ya tener tener instalado:
 
 2-Extraer los ficheros.
 
-3-Es importante que en Visual Studio Code, se abra LA CARPETA antlr-seguncaso-project, NO la carpeta 52130, ni 52130-main, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Ver orden de imagenes:
+3-Es importante que en Visual Studio Code, se abra LA CARPETA 52130, NO la carpeta antlr-seguncaso-project, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Es decir, al abrir la carpeta en visual estudio code, los archivos deben verse de la seguiente manera:
+[image.png](https://postimg.cc/qzjT0z9K)
 
-[![image.png](https://i.postimg.cc/MTKhtzrF/image.png)](https://postimg.cc/qtSbvHrs)
-[![image.png](https://i.postimg.cc/j5VqCwgr/image.png)](https://postimg.cc/Ny4vzMvN)
-[![image.png](https://i.postimg.cc/x8tbK1H1/image.png)](https://postimg.cc/8ff5GDt2)
-[![image.png](https://i.postimg.cc/rskPdM2m/image.png)](https://postimg.cc/JDpqvwnV)
+De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js
 
-Luego en Visual Studio Code se verá: 
-[![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
-
-CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP.
-Una vez clonado. Se debe cerrar Visual Studio Code. Cuando se abre de nuevo. Seleccionar abrir carpeta: LA CARPETA A ABRIR DEBE SER antlr-seguncaso-project, NO la carpeta 52130. Ver orden imágenes:
-[![image.png](https://i.postimg.cc/jdqQykgg/image.png)](https://postimg.cc/3W6vT9Hm)
-
-Luego, se abrirá: 
-[![image.png](https://i.postimg.cc/q77vL2Vd/image.png)](https://postimg.cc/pmgvVhL0)
-
-[![image.png](https://i.postimg.cc/FHB2MSkv/image.png)](https://postimg.cc/21ncvVx9)
-En el directorio donde se clonó el proyecto estará:
-[![image.png](https://i.postimg.cc/Kj09nXnb/image.png)](https://postimg.cc/30DCTcSf)
-[![image.png](https://i.postimg.cc/Z5xL3zZM/image.png)](https://postimg.cc/LJhfK7Jt)
-
-Luego en Visual Studio Code se verá: 
-[![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
+CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52130 directamente.
 
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
 
