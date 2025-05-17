@@ -24,8 +24,10 @@ Podrá observarse que el sistema:
 	-Genera una tabla de lexemas y tokens.
 
 	-Construye un árbol de derivación(perteneciente al análisis sintáctico).
+ 
+ 	-traduce el código fuente, al lenguaje JavaScript; y lo ejecuta como lo haría un intérprete básico.
 
-Estos tres items se encuentran dentro de un mismo archivo llamado index.js
+os tres primeros items se encuentran dentro de un mismo archivo llamado index.js
 
 En un archivo distinto, llamado interp.js se encuentra:
 
