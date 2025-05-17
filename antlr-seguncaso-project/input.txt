@@ -1,7 +1,0 @@
-segun "Taylor" hacer{
-	caso "A": imprimir("red");
-	caso "B": imprimir("TTDP");
-	defecto:
-		imprimir("Opcion no valida");
-		salir;
-}finsegun
