@@ -89,13 +89,7 @@ EN EL CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52
 
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido por alguno de los archivos adjuntos, debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
 
-5-Al seleccionar: seguncaso.g4 , se abrirá la gramática asignada.
-Desde este archivo y en base al ejemplo colocado en el input se podrá observar el árbol de derivación. Para esto es necesario:
-	
- 	-Presiona F5 para generar y visualizar el árbol de derivación (requiere tener el plugin ANTLR instalado).
- [![IMAGEN3.png](https://i.postimg.cc/133b4084/IMAGEN3.png)](https://postimg.cc/2Vg0KZFf)
- 
-6-Ejecutar el analizador sintáctico y árbol: 
+5-Ejecutar el analizador sintáctico y árbol: 
 	
  	-se abre el archivo index.js
  	
@@ -105,9 +99,15 @@ Desde este archivo y en base al ejemplo colocado en el input se podrá observar 
    
 [![image.png](https://i.postimg.cc/66DT5q7f/image.png)](https://postimg.cc/QVJjfXJF)
 
-[![image.png](https://i.postimg.cc/QMBRt8Kc/image.png)](https://postimg.cc/qtTmDdL7)
- 
-7-Ejecutar el intérprete: se ejecutará completo con los inputs correctos, en  el caso de los incorrectos, quedará en blanco la traducción.
+[![image.png](https://i.postimg.cc/76RkpY6f/image.png)](https://postimg.cc/WF0CZV0v)
+
+[![image.png](https://i.postimg.cc/x8ySqG5b/image.png)](https://postimg.cc/Cn12QqWF)
+
+[![image.png](https://i.postimg.cc/4x0jfFGS/image.png)](https://postimg.cc/nXv3T2C4)
+
+[![image.png](https://i.postimg.cc/rsyfCSc4/image.png)](https://postimg.cc/tZfd9nsR)
+
+6-Ejecutar el intérprete: se ejecutará completo con los inputs correctos, en  el caso de los incorrectos, quedará en blanco la traducción.
 	
  	-Se abre el achivo interp.js
  	
