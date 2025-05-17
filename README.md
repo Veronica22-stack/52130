@@ -82,7 +82,18 @@ Luego en Visual Studio Code se verá:
 
 CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP.
 Una vez clonado. Se debe cerrar Visual Studio Code. Cuando se abre de nuevo. Seleccionar abrir carpeta: LA CARPETA A ABRIR DEBE SER antlr-seguncaso-project, NO la carpeta 52130. Ver orden imágenes:
+[![image.png](https://i.postimg.cc/jdqQykgg/image.png)](https://postimg.cc/3W6vT9Hm)
 
+Luego, se abrirá: 
+[![image.png](https://i.postimg.cc/q77vL2Vd/image.png)](https://postimg.cc/pmgvVhL0)
+
+[![image.png](https://i.postimg.cc/FHB2MSkv/image.png)](https://postimg.cc/21ncvVx9)
+En el directorio donde se clonó el proyecto estará:
+[![image.png](https://i.postimg.cc/Kj09nXnb/image.png)](https://postimg.cc/30DCTcSf)
+[![image.png](https://i.postimg.cc/Z5xL3zZM/image.png)](https://postimg.cc/LJhfK7Jt)
+
+Luego en Visual Studio Code se verá: 
+[![image.png](https://i.postimg.cc/hvMwhJ44/image.png)](https://postimg.cc/y3gnb8S2)
 
 4- EL archivo input.txt se encuentra con el contenido del archivo input_correcto_1. Es importante aclarar que si se desea cambiar su contenido se debe luego hacer click en ctrl+s; porque si no, se hace la ejecución con el contenido original, y no sobre el elegido.
 
