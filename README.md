@@ -81,7 +81,7 @@ Es importante ya tener tener instalado:
 
 3-Es importante que en Visual Studio Code, se abra LA CARPETA 52130, NO la carpeta antlr-seguncaso-project, ya puede generar errores al ejecutarse, debido al directorio del achivo input.txt. Es decir, al abrir la carpeta en visual estudio code, los archivos deben verse de la seguiente manera:
 
-[image.png](https://postimg.cc/qzjT0z9K)
+[![image.png](https://i.postimg.cc/CxVLG87c/image.png)](https://postimg.cc/qzjT0z9K)
 
 De lo contrario habrán errores al querer ejecutar el archivo index.js y el archivo interp.js (ver mas abajo como ejecutarlos)
 
