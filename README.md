@@ -7,6 +7,8 @@ Verónica Silva
 
 En este README se podrá observar: ACLARACIONES, INSTALACIÓN, ARCHIVOS DEL PROYECTO E INSTRUCCIONES DE USO
 
+En este README toda explicación importante está acompañada de imágenes del ejemplo input_correcto_1; para mejor comprension del proyecto.
+
 # ACLARACIONES
 
 -En Visual Studio Code, se debe abrir la carpeta 52130, NO la carpeta antlr-seguncaso-project, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
