@@ -107,6 +107,8 @@ EN EL CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52
 
 [![image.png](https://i.postimg.cc/rsyfCSc4/image.png)](https://postimg.cc/tZfd9nsR)
 
+
+Comentario: El árbol lo programé para que pueda verse de esta forma ya que por razones que desconozco, github no me dejó subir la carpeta .vscode (razón por la cual se puede ver en el repositorio que esta subido sin el punto . ; pero al no tener el . no me deja ejecutar el árbol con la extensión de ANTLR, en VisualStudioCode).
 6-Ejecutar el intérprete: se ejecutará completo con los inputs correctos, en  el caso de los incorrectos, quedará en blanco la traducción.
 	
  	-Se abre el achivo interp.js
