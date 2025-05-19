@@ -11,6 +11,8 @@ En este README toda explicación importante está acompañada de imágenes del e
 
 # ACLARACIONES
 
+-HAy una carpeta llamada vscode FUERA de la carpeta antlr-seguncaso-project, ya que si se abre la carpeta 52130, se necesitaa que vscode este fuera para poder ejecutar el árbol.
+
 -En Visual Studio Code, se debe abrir la carpeta 52130, NO la carpeta antlr-seguncaso-project, ya que sino se generan errores al ejecutar index.js y interp.js, debido al directorio del achivo input.txt. Ver en detalle en Instrucciones de uso.
 Para que estos se ejecuten correctamente, en la terminal se colocan los comandos:
 
@@ -108,7 +110,9 @@ EN EL CASO DE HABERLO CLONADO Y NO DESCARGADO COMO ZIP, se abrirá la carpeta 52
 [![image.png](https://i.postimg.cc/rsyfCSc4/image.png)](https://postimg.cc/tZfd9nsR)
 
 
-Comentario: El árbol lo programé para que pueda verse de esta forma ya que por razones que desconozco, github no me dejó subir la carpeta .vscode (razón por la cual se puede ver en el repositorio que esta subido sin el punto . ; pero al no tener el . no me deja ejecutar el árbol con la extensión de ANTLR, en VisualStudioCode).
+Comentario: El árbol lo programé para que pueda verse de esta forma ya que por razones que desconozco, github no me dejó subir la carpeta .vscode (razón por la cual se puede ver en el repositorio que esta subido sin el punto . ; pero al no tener el . no me deja ejecutar el árbol con la extensión de ANTLR, en VisualStudioCode). En el caso que se quiera visualizar el árbol con esa extensión, se le debe agregar a los dos archivos vscode(el que esta dentro de la carpeta antlr-seguncaso-project; y al que está afuera) el punto correspondiente. De esta forma el árbol se ejecuta correctamente.
+
+[![image.png](https://i.postimg.cc/t45ZjfP4/image.png)](https://postimg.cc/YvvqNdb5)
 
 6-Ejecutar el intérprete: se ejecutará completo con los inputs correctos, en  el caso de los incorrectos, quedará en blanco la traducción.
 	
